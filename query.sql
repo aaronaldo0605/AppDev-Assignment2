@@ -1,3 +1,4 @@
+--This is the SQL code
 SELECT 
     SALES_ORDERS.EID AS EmployeeID,
     SUM(ITEMS_ON_SALES_ORDERS.QTY_SOLD) AS TotalItemsSold,
